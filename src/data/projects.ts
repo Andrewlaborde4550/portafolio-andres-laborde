@@ -8,12 +8,12 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    title: "API de Gestión Académica",
-    description: "Desarrollo de una REST API para el control de notas y asistencias. Implementé autenticación JWT y arquitectura de capas para asegurar la escalabilidad.",
-    tech: ["Node.js", "Express", "PostgreSQL", "Prisma", "TypeScript"],
+    {
+    title: "ForoHub API",
+    description: "REST API robusta para un foro de discusión educativo. Implementé una arquitectura sólida con gestión de estados para tópicos, relaciones complejas entre usuarios y cursos, y un sistema global de tratamiento de errores para garantizar respuestas consistentes.",
+    tech: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Lombok"],
     link: "#", 
-    github: "https://github.com/tu-usuario/nombre-repo",
+    github: "https://github.com/Andrewlaborde4550/forohub.git", 
     type: "Backend",
   },
   {
