@@ -17,19 +17,19 @@ export const projects: Project[] = [
     type: "Backend",
   },
   {
-    title: "E-commerce Tech-Store",
-    description: "Plataforma de compras con carrito en tiempo real, filtros avanzados y diseño responsivo. Enfocado en la optimización de carga y experiencia de usuario.",
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Zustand"],
-    link: "#",
-    github: "https://github.com/tu-usuario/nombre-repo",
+    title: "Sistema de Control Electoral",
+    description: "Plataforma de gestión de datos en tiempo real para campañas electorales. Permite el seguimiento de líderes y votantes, con persistencia en la nube y analíticas de captación por zonas.",
+    tech: ["Node.js", "Express", "PostgreSQL (Supabase)", "Railway", "HTML", "css"],
+    link: "https://sistema-registro-electoral-production.up.railway.app/", //link real de despliegue
+    github: "https://github.com/Andrewlaborde4550/sistema-registro-electoral.git",
     type: "Fullstack",
   },
   {
-    title: "Monitor de Criptomonedas",
-    description: "Dashboard que consume APIs externas para mostrar precios en tiempo real. Incluye gráficos interactivos y un sistema de alertas de precios.",
-    tech: ["React", "Chart.js", "Axios", "Context API"],
-    link: "#",
-    github: "https://github.com/tu-usuario/nombre-repo",
+    title: "Financial Dashboard Pro",
+    description: "Gestor de finanzas con análisis gráfico, metas de ahorro y exportación a PDF.",
+    tech: ["Next.js 15", "Supabase", "Tailwind CSS", "Recharts", "TypeScript","Dizzel"],
+    link: "https://gestor-gastos.vercel.app",
+    github: "https://github.com/Andrewlaborde4550/sistema-gestor-de-gastos.git",
     type: "Frontend",
-  },
+  }
 ];

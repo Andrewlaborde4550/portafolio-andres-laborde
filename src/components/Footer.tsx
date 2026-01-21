@@ -24,10 +24,10 @@ export default function Footer() {
 
         <div className="flex gap-4">
           <Button variant="default" size="icon" asChild>
-            <a href="https://github.com/tu-usuario" target="_blank"><Github className="h-5 w-5" /></a>
+            <a href="https://github.com" target="_blank"><Github className="h-5 w-5" /></a>
           </Button>
           <Button variant="default" size="icon" asChild>
-            <a href="https://linkedin.com/in/tu-perfil" target="_blank"><Linkedin className="h-5 w-5" /></a>
+            <a href="https://www.linkedin.com/in/andrés-laborde" target="_blank"><Linkedin className="h-5 w-5" /></a>
           </Button>
           
           {/* Botón de Copiar Email */}

@@ -18,11 +18,12 @@ export default function Hero() {
             Hola, soy <span className="text-blue-500">Andrés Laborde</span>
         </h1>
 
-       <motion.p 
+        <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="mx-auto max-w-[600px] text-center text-zinc-400 md:text-xl mb-10 leading-relaxed"
+            // Añadimos mt-8 para separarlo del título
+            className="mx-auto max-w-[600px] text-center text-zinc-400 md:text-xl mt-8 mb-10 leading-relaxed"
             >
             Ingeniero de Sistemas en formación. Especializado en construir 
             <span className="text-zinc-200"> soluciones escalables</span> y código limpio.
@@ -41,7 +42,7 @@ export default function Hero() {
           </Button>
 
           <Button variant="default" size="lg" className="border-zinc-100" asChild>
-            <a href="https://github.com/AndresLaborde" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-4 w-4" /> GitHub
             </a>    
           </Button>
