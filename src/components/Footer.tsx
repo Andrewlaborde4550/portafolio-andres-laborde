@@ -18,8 +18,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-center gap-6">
         <h2 className="text-2xl font-bold">¿Hablamos?</h2>
         <p className="text-zinc-400 text-center max-w-md">
-          Estoy buscando mi primera oportunidad profesional. Si buscas a alguien 
-          apasionado por el código limpio, contáctame.
+          Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!
         </p>
 
         <div className="flex gap-4">
@@ -44,7 +43,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-zinc-600 mt-8">
-          © {new Date().getFullYear()} Andrés Laborde. Construido con Next.js y Shadcn/UI.
+          © {new Date().getFullYear()} Andrés Laborde.
         </p>
       </div>
     </footer>

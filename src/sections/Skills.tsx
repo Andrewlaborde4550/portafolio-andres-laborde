@@ -10,7 +10,7 @@ export default function Skills() {
         <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4">
           Habilidades Técnicas
         </h2>
-        <p className="text-zinc-400 max-w-[600px] mx-auto">
+        <p className="text-zinc-400 max-w-150 mx-auto">
           Mi stack se enfoca en el desarrollo de aplicaciones robustas, escalables y con una gran experiencia de usuario.
         </p>
       </div>

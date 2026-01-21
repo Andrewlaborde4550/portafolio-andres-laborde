@@ -8,7 +8,7 @@ export default function Projects() {
     <section id="proyectos" className="py-24 px-4 max-w-6xl mx-auto">
       <div className="space-y-4 mb-12">
         <h2 className="text-3xl md:text-4xl font-bold tracking-tighter text-center">Proyectos Destacados</h2>
-        <p className="text-zinc-400 text-center max-w-[700px] mx-auto">
+        <p className="text-zinc-400 text-center max-w-175 mx-auto">
           Una selección de mis trabajos más recientes, enfocados en arquitectura limpia y soluciones eficientes.
         </p>
       </div>
@@ -28,7 +28,7 @@ export default function Projects() {
               </CardDescription>
             </CardHeader>
             
-            <CardContent className="flex-grow">
+            <CardContent className="grow">
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((t) => (
                   <span key={t} className="text-[10px] font-medium px-2 py-1 bg-zinc-800 text-zinc-300 rounded uppercase">

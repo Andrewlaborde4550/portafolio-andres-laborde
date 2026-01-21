@@ -23,7 +23,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
             // Añadimos mt-8 para separarlo del título
-            className="mx-auto max-w-[600px] text-center text-zinc-400 md:text-xl mt-8 mb-10 leading-relaxed"
+            className="mx-auto max-w-150 text-center text-zinc-400 md:text-xl mt-8 mb-10 leading-relaxed"
             >
             Ingeniero de Sistemas en formación. Especializado en construir 
             <span className="text-zinc-200"> soluciones escalables</span> y código limpio.
